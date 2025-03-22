@@ -1,4 +1,4 @@
-package com.schoolmanagement.controller;
+package com.schoolmanagement.controllers;
 
 import com.schoolmanagement.dto.UserDTO;
 import com.schoolmanagement.model.User;
