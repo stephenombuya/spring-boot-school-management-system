@@ -1,8 +1,0 @@
-CREATE TABLE attendance (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    student_id INT,
-    date DATE NOT NULL,
-    status ENUM('PRESENT', 'ABSENT', 'LATE') NOT NULL,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    FOREIGN KEY (student_id) REFERENCES users(id) ON DELETE CASCADE
-);
