@@ -245,3 +245,7 @@ Tests use an H2 in-memory database — no MySQL setup required.
 ## 📄 License
 
 MIT License
+
+## 🤝 Contribution
+
+Contributions are welcome! Feel free to open an issue or submit a pull request.
